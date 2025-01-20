@@ -25,7 +25,8 @@ Based on https://repost.aws/articles/ARl2NsdPqORQevlogm38vPnw/attaching-availabl
 
 ### AUTOSCALING LIFECYCLE HOOK
 (where the hell is the notification endpoint arn in the UI?!)
-- [ ] Use AWS CLI to [put-lifecycle-hook](lifecyclehook_command.sh)
+[put-lifecycle-hook documentation](https://docs.aws.amazon.com/cli/latest/reference/autoscaling/put-lifecycle-hook.html)
+- [ ] Use AWS CLI to [put-lifecycle-hook with all flags](lifecyclehook_command.sh)
 
 ### IAM
 - [ ] Create Role for Autoscaling Lifecycle Hook called `AutoScalingNotificationRole`

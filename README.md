@@ -30,7 +30,7 @@ Based on https://repost.aws/articles/ARl2NsdPqORQevlogm38vPnw/attaching-availabl
 
 ### IAM
 - [ ] Create Role for Autoscaling Lifecycle Hook called `AutoScalingNotificationRole`
-- [ ] Add EC2 Autoscaling Notification Access
+- [ ] Add EC2 Autoscaling Notification Access in UI
 
 ### AUTOSCALING LIFECYCLE HOOK
 (where the hell is the notification endpoint arn in the UI?!)

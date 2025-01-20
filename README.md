@@ -17,7 +17,7 @@ Based on https://repost.aws/articles/ARl2NsdPqORQevlogm38vPnw/attaching-availabl
 
 ### IAM
 - [ ] Create Role called `EIPAssignerLambda` for Lambda function
-- [ ] Create Policy called `EIPAssignmentAndCloudwatchLogging` for Lambda function from the [Policy Provided](eipAssignerPolicy.json)
+- [ ] Create Policy called `EIPAssignmentAndCloudwatchLogging` for Lambda function from the [Policy provided](assignEipLamda.json)
 - [ ] Attach the `EIPAssignmentAndCloudwatchLogging` policy to the `EIPAssignerLambda` role
 
 ### LAMBDA
